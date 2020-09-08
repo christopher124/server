@@ -1,0 +1,21 @@
+{
+  "name": "instaclone",
+  "version": "0.0.1",
+  "description": "El sevidor de la app instaclone",
+  "main": "index.js",
+  "author": "Christopher Uriel Sosa Garcia",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.17.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
